@@ -12,6 +12,8 @@ else{
 }
 */
 
+
+/*
 if(business > minister && business > army){
     console.log('Business is bigger');
 }
@@ -21,3 +23,7 @@ else if(minister > business && minister > army){
 else{
     console.log('army is bigger');
 }
+*/
+
+var max = Math.max(business, minister, army);
+console.log('largest is: ' + max);
