@@ -14,3 +14,7 @@ const myNumber = 6.700474;
 //random digit
 const output = Math.random(myNumber);
 console.log(output * 10);
+
+const number = -78; 
+const answer = Math.abs(number); 
+console.log(answer);

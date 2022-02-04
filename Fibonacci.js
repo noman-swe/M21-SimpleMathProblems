@@ -40,3 +40,7 @@ function fibonacchiSeries(num){
 
 const fibonacchi = fibonacchiSeries(10);
 console.log(fibonacchi);
+
+var a = 5; var b= 8; c = 4; var d = 6;
+var highest = max.Math(a, b, c, d);
+console.log(highest);
